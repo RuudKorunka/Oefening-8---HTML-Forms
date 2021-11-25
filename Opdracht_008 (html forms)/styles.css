@@ -1,0 +1,47 @@
+body{
+    background-color:lightcyan;
+}
+
+.border{
+    border: 5px solid green;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.center-title{
+    color: red;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.li {
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 320px) {          /* for mobile devices */        
+    body {
+            background-color: lightblue;
+    }
+
+}
+
+@media (min-width: 1024px) {         /* for desktops */
+    body {
+            background-color: lightgreen;
+            color:chocolate;
+            font-size: 20px;
+            line-height: 30px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
